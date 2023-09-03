@@ -18,8 +18,6 @@ namespace AlliantCart
         {
             string? path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
                 jsonFilePath);
-            //string? path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
-            //    @"C:\Users\tcpag\source\repos\AlliantShoppingCart\AlliantShoppingCart\bin\Debug\net7.0\Model\ProductMenu.json");
             string productJSON = File.ReadAllText(path);
 
             return JsonConvert.DeserializeObject<List<Product>>(productJSON);
