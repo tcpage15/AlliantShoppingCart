@@ -1,0 +1,30 @@
+[
+  {
+    "Code": "A",
+    "Value": 2.00,
+    "AvailableDiscount": "true",
+    "DiscountQty": 4,
+    "DiscountValue": 7.00
+  },
+  {
+    "Code": "B",
+    "Value": 12.00,
+    "AvailableDiscount": "false",
+    "DiscountQty": 0,
+    "DiscountValue": 0.00
+  },
+  {
+    "Code": "C",
+    "Value": 1.25,
+    "AvailableDiscount": "true",
+    "DiscountQty": 6,
+    "DiscountValue": 6.00
+  },
+  {
+    "Code": "D",
+    "Value": 0.15,
+    "AvailableDiscount": "false",
+    "DiscountQty": 0,
+    "DiscountValue": 0.00
+  }
+]
