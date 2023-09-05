@@ -14,6 +14,10 @@ namespace AlliantCart
     {
         const string jsonFilePath = @"Model\productMenu.json";
 
+        /// <summary>
+        /// Get the JSON product data and serialize it into a collection of Products
+        /// </summary>
+        /// <returns></returns>
         public List<Product>? GetProductListFromMenu()
         {
             string? path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),

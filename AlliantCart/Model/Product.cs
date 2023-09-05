@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AlliantCart.Model
 {
+    /// <summary>
+    /// Object that will contain the Product Item and available pricing
+    /// </summary>
     public class Product
     {
         public required string Code { get; set; }
