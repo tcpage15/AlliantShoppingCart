@@ -16,7 +16,7 @@ namespace AlliantShoppingCart
             AlliantCart.PointOfSale cartSale = new AlliantCart.PointOfSale();
 
             Console.WriteLine("----- Alliant Shopping Cart -----");
-            Console.WriteLine("Please enter the Product Codes you wish to scan: ");
+            Console.WriteLine("Please enter the Product Codes you wish to scan (A, B, C, D): ");
 
             // Read the items to be scanned and prepare them to be scanned individually
             productCodesToScan = Console.ReadLine();
